@@ -7,3 +7,12 @@ JSON Web Token Support For The JVM
     <artifactId>jjwt</artifactId>
     <version>0.9.1</version>
 </dependency>
+
+
+CSRF
+Is an attack vector that tricks a web browser into executing an unwanted action in an application to which 
+a user is logged in.
+Es un vector de ataque que engaña a un navegador web para que ejecute una acción no deseada en una aplicación 
+en la que un usuario ha iniciado sesión 
+
+CORS (Cross-Origin Resource Sharing)

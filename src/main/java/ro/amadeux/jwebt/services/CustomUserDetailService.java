@@ -16,7 +16,7 @@ public class CustomUserDetailService implements UserDetailsService {
 		if(userName.equals("tom")) {//Aqui podemos hacer una llamada a la BD con la ayuda del repository
 			//y hacer la validación
 			//User: security.core.userdetails.User
-			return new User("tom", "secret", new ArrayList<>());
+			return new User("tom", "secret", new ArrayList<>());//asumimos que lo retorna de la BD (esto es en crudo)
 		}else {
 			throw new UsernameNotFoundException("El usuario no existe");
 		}
