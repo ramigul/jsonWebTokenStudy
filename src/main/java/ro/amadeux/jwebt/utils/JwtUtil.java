@@ -22,8 +22,8 @@ import java.util.function.Function;
 public class JwtUtil {
 	
 	//Valor desde properties
-	@Value("${jwt.secrect}")
-	private String SECRET_KEY;//"GCdbzqAExA6z3aQdGbo4";//Con un generador de String online
+	@Value("${jwt.secret}")
+	private String SECRET_KEY;// = "GCdbzqAExA6z3aQdGbo4";//Con un generador de String online
 
     public String extractUsername(String token) {
         return extractClaim(token, Claims::getSubject);
